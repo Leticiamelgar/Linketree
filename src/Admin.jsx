@@ -10,7 +10,7 @@ export default function Admin() {
   const [editId, setEditId] = useState(null);
 
   const carregarDados = async () => {
-    const res = await fetch('http://localhost:5000/produtos');
+    const res = await fetch('https://linketree-ddba.onrender.com/produtos');
     const data = await res.json();
     setProdutos(data);
 
@@ -29,7 +29,7 @@ export default function Admin() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = editId ? `http://localhost:5000/produtos/${editId}` : 'http://localhost:5000/produtos';
+    const url = editId ? `https://linketree-ddba.onrender.com/produtos/${editId}` : 'https://linketree-ddba.onrender.com/produtos';
     const method = editId ? 'PUT' : 'POST';
 
     const res = await fetch(url, {
@@ -57,7 +57,7 @@ export default function Admin() {
 
   const apagarItem = async (id) => {
     if (window.confirm('Tem certeza que deseja apagar?')) {
-      const res = await fetch(`http://localhost:5000/produtos/${id}`, { 
+      const res = await fetch(`https://linketree-ddba.onrender.com/produtos/${id}`, { 
         method: 'DELETE',
         headers: { 'x-senha-admin': senha } // A palavra-passe protege a exclusão
       });

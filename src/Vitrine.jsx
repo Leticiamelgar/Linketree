@@ -7,7 +7,7 @@ export default function Vitrine() {
     const [carregando, setCarregando] = useState(true);
 
     useEffect(() => {
-      fetch("http://localhost:5000/produtos")
+      fetch("https://linketree-ddba.onrender.com/produtos")
         .then((res) => res.json())
         .then((data) => {
           setProdutos(data);
