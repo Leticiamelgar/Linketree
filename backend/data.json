@@ -1,0 +1,45 @@
+[
+  {
+    "id": "destaque",
+    "numero": "PRODUTO EM DESTAQUE",
+    "titulo": "Último Vídeo",
+    "subtitulo": "Ver na Loja",
+    "link": "SEU_LINK_DE_AFILIADO_AQUI",
+    "imagem": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=150"
+  },
+  {
+    "id": "01",
+    "numero": "01",
+    "titulo": "Quadro Decorativo Boho",
+    "link": "https://meli.la/2iTZdtq",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_903788-MLB116654425341_082026-F-quadros-decorativos-sala-folha-verde-bege-neutro-boho-122x60.webp"
+  },
+  {
+    "id": "02",
+    "numero": "02",
+    "titulo": "Jogo 6 Canecas Xícara 120ml Vidro",
+    "link": "https://meli.la/2NNKUet",
+    "imagem": "https://i.pinimg.com/736x/d5/2a/fe/d52afe2b5237f0b0a1c78ce750ea50a4.jpg"
+  },
+  {
+    "id": "04",
+    "numero": "04",
+    "titulo": "Espelho Orgânico Corpo Inteiro 90x40cm",
+    "link": "https://meli.la/2xjQnPM",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_671705-MLB118351926475_092026-F-espelho-rocco-corpo-inteiro-organico-90x40-pinterest-grande.webp"
+  },
+  {
+    "id": "05",
+    "numero": "05",
+    "titulo": "Nicho Prateleira Industrial Dourado",
+    "link": "https://meli.la/2K7KQ1R",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_715602-MLB118252449921_092026-F-nicho-prateleira-industrial-cozinha-sala-dourada-promocao.webp"
+  },
+  {
+    "id": "06",
+    "numero": "06",
+    "titulo": "Caneca Em Cerâmica Natalina",
+    "link": "https://meli.la/2BiYvjX",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_753146-MLA116194921382_092026-F.webp"
+  }
+]
